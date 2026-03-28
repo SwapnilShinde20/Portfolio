@@ -81,7 +81,13 @@ function About() {
                 I&apos;m based in Mumbai, Maharashtra and open to remote work in
                 all over India.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a href="mailto:shindeswapnil2005@gmail.com" className="w-full">
+  <Button 
+    name="Contact Me" 
+    isBeam 
+    containerClass="w-full mt-10"
+  />
+</a>
             </div>
           </div>
         </div>

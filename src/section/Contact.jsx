@@ -44,16 +44,16 @@ const Contact = () => {
     }
   };
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="contact">
       <h3 className="head-text">Contact Me</h3>
       <div className="relative min-h-screeen flex items-center justify-center flex-col">
 
         <img
           src="/assets/terminal.png"
           alt="terminal background"
-          className="absolute inset-0 min-h-screen"
+          className="absolute inset-0 h-full "
         />
-        <div className="contact-container">
+        <div className="contact-container pb-10">
           <h3 className="head-text">Let'Talk</h3>
           <p className="text-lg text-white-600 mt-3">
             Whether your're looking to build a new website, improve your
