@@ -28,7 +28,11 @@ function Projects() {
             <img src={currentProject.spotlight} alt="spotlight" className='w-full h-96 object-cover rounded-xl'/>
           </div>
           <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={currentProject.logoStyle}>
-            <img src={currentProject.logo} alt="logo" className='w-10 h-10 shadow-sm' />
+          <img
+  src={currentProject.logo}
+  alt="logo"
+  className="w-16 h-16 object-contain"
+/>
           </div>
           <div className='text-white-600 flex flex-col gap-5 my-5'>
               <p className='text-white text-2xl animatedText font-semibold'>{currentProject.title}</p>

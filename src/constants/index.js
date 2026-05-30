@@ -104,43 +104,78 @@ timetables through an intuitive interface.`,
       },
     ],
   },
-  {
-    title: "MyBlog - Blogging Website",
-    desc: `MyBlog is a simple website where people can write, share, and read blogs. Users can sign up
-safely with their email or social media accounts. The website has an easy editor to help
-users create posts with pictures, videos, and other content. The homepage shows popular
-and recent blogs. People can comment on and like blogs, and they can follow their favorite
-writers to stay updated. The website works well on phones, tablets, and computers.`,
-    subdesc: `MyBlog
-is made for anyone who loves writing or reading blogs, making it easy to share ideas and
-connect with others`,
-    href: "https://github.com/SwapnilShinde20/MyBlogs",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.jpeg",
-    logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
-    },
-    spotlight: "/assets/spotlight2.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "Appwrite",
-        path: "/assets/appwrite.png",
-      },
-    ],
+{
+  title: "Rachna Innovative - Real Estate Marketplace",
+  desc: `A full-stack real estate marketplace that enables buyers and sellers to manage property listings, schedule meetings, and track transactions through a modern web platform. The application includes secure authentication, role-based access control, and an analytics dashboard for monitoring platform activity.`,
+  subdesc: `Built using React.js, Node.js, Express.js, and MongoDB. Features JWT authentication, RBAC, admin analytics, property management workflows, and a responsive user interface optimized for seamless user experience.`,
+  href: "https://rachna-innovative.vercel.app",
+  texture: "/textures/project/project5.mp4",
+  logo: "/assets/rachna-logo.jpeg",
+  logoStyle: {
+    backgroundColor: "#13202F",
+    border: "0.2px solid #17293E",
+    boxShadow: "0px 0px 60px 0px #2F6DB54D",
   },
+  spotlight: "/assets/spotlight1.png",
+  tags: [
+    {
+      id: 1,
+      name: "React.js",
+      path: "/assets/react.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "/assets/nodejs.png",
+    },
+    {
+      id: 3,
+      name: "MongoDB",
+      path: "/assets/mongodb.png",
+    },
+    {
+      id: 4,
+      name: "Express.js",
+      path: "/assets/expressjs.png",
+    },
+  ],
+},
+{
+  title: "Drs-4you.com - Healthcare Platform",
+  desc: `A healthcare platform designed to streamline patient follow-ups, doctor consultations, and medical record management. The system provides a scalable backend architecture and content management capabilities for healthcare organizations.`,
+  subdesc: `Developed with React.js, Node.js, MySQL, and Strapi CMS. Includes custom APIs, content management workflows, SEO optimization, and production deployment using OpenLiteSpeed and PM2.`,
+  href: "https://drs-4you.com",
+  texture: "/textures/project/project2.mp4",
+  logo: "/assets/drs-4you-logo.svg",
+  logoStyle: {
+    backgroundColor: "#0F172A",
+    border: "0.2px solid #1E293B",
+    boxShadow: "0px 0px 60px 0px rgba(59,130,246,0.3)",
+  },
+  spotlight: "/assets/spotlight2.png",
+  tags: [
+    {
+      id: 1,
+      name: "React.js",
+      path: "/assets/react.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "/assets/nodejs.png",
+    },
+    {
+      id: 3,
+      name: "MySQL",
+      path: "/assets/mysql.png",
+    },
+    {
+      id: 4,
+      name: "Strapi",
+      path: "/assets/strapi.webp",
+    },
+  ],
+},
   {
     title: "Cafe Management System",
     desc: `Cafe Management System is based on a concept to maintain orders and management of a
@@ -179,47 +214,7 @@ the role of User is to manage orders of customers.`,
       },
     ],
   },
-  {
-    title: "Online Railway Ticket Fine Generator",
-    desc: `Railway Fine Generation System is a comprehensive software solution designed to
-automate the process of issuing fines to railway passengers for various violations such as
-ticketless travel, unauthorized carriage of luggage, traveling in higher classes with a lower
-class ticket, etc. This project integrates an online payment facility to allow passengers to
-pay their fines conveniently through digital transactions.`,
-    subdesc:
-      "The system is developed using Java programming language to ensure platform independence and scalability and MySQL for Database.",
-    href: "https://tejasbabar24.github.io/railway_System",
-    texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
-    logoStyle: {
-      backgroundColor: "#0E1F38",
-      border: "0.2px solid #0E2D58",
-      boxShadow: "0px 0px 60px 0px #2F67B64D",
-    },
-    spotlight: "/assets/spotlight4.png",
-    tags: [
-      {
-        id: 1,
-        name: "HTML",
-        path: "/assets/html.png",
-      },
-      {
-        id: 2,
-        name: "CSS",
-        path: "assets/css.png",
-      },
-      {
-        id: 3,
-        name: "Java",
-        path: "/assets/java.png",
-      },
-      {
-        id: 4,
-        name: "MySQl",
-        path: "/assets/mysql.png",
-      },
-    ],
-  },
+  
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
