@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 const Globe = React.lazy(() => import("react-globe.gl"));
 import Button from "../components/Button";
-import { Suspense } from 'react';
+import { Suspense } from "react";
 function About() {
   const [hasCopied, setHasCopied] = useState(false);
   const handleCopy = () => {
@@ -24,10 +24,11 @@ function About() {
             <div>
               <p className="grid-headtext">Hi, I’m Swapnil Shinde</p>
               <p className="grid-subtext">
-                With 3 years of experience in my diploma journey, I have
-                developed strong expertise in both frontend and backend
-                development. I specialize in creating dynamic, responsive, and
-                user-centric websites that deliver seamless digital experiences.
+                With a solid foundation gained through a 3-year diploma and
+                ongoing engineering studies, I have developed strong skills in
+                frontend and backend development. I am passionate about building
+                modern, responsive, and user-centric web applications that
+                combine performance, functionality, and great user experience.
               </p>
             </div>
           </div>
@@ -82,12 +83,12 @@ function About() {
                 all over India.
               </p>
               <a href="mailto:shindeswapnil2005@gmail.com" className="w-full">
-  <Button 
-    name="Contact Me" 
-    isBeam 
-    containerClass="w-full mt-10"
-  />
-</a>
+                <Button
+                  name="Contact Me"
+                  isBeam
+                  containerClass="w-full mt-10"
+                />
+              </a>
             </div>
           </div>
         </div>
