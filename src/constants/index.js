@@ -218,7 +218,7 @@ the role of User is to manage orders of customers.`,
   title: "Smart Resume Builder",
   desc: `A modern resume builder that helps users create professional, ATS-friendly resumes through an intuitive interface. Users can add personal details, education, skills, projects, experience, and certifications while instantly previewing their resume in a polished format.`,
   subdesc: `Built using React.js, Tailwind CSS, and Vite. Features real-time resume preview, PDF export functionality, localStorage persistence, dynamic form sections, ATS-friendly templates, and a fully responsive design optimized for desktop and mobile devices.`,
-  href: "https://your-resume-builder.vercel.app",
+  href: "https://resume-builder-alpha-silk-30.vercel.app/",
   texture: "/textures/project/project5.mp4",
   logo: "/assets/resume.png",
   logoStyle: {
