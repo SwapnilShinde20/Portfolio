@@ -60,7 +60,7 @@ function Hero() {
     <section className='min-h-screen w-full relative flex flex-col'>
       <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3'>
         <p className='sm:text-3xl font-medium text-center font-generalsans text-2xl text-white'>Hi, I am Swapnil <span className='waving-hand'>👋</span></p>
-        <p className='hero_tag text-gray_gradient'>Building products & brands</p>
+        <p className='hero_tag text-gray_gradient'>Building software that matters.</p>
       </div>
       <div className='w-full h-full absolute inset-0'>
           {/* <Leva/> */}
